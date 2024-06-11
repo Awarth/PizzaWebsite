@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+
+* {
+  font-family: "Yeseva One", serif;
+}
+
+header {
+  transition: all 0.3s ease-in;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+header img {
+  max-height: 35px;
+}
+.custom-scroll {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #36191d;
+  opacity: 0.9;
+  width: 100%;
+  z-index: 1000;
+  padding: 1em 4em;
+}
+
+.bgTransparent{
+  background-color: transparent;
+  padding: 1.75em 4em;
+}
+
+.navContent {
+  display: flex;
+}
+
+.navOptions{
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.navOptions:hover{
+  color: #aeab06;
+}
+
+.navActive{
+  color: #aeab06;
+}
+
+.sidebarMenu {
+  color: #aeab06;
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  display: none;
+}
+
+.sidebar {
+  height: 100vh;
+  width: 0;
+  position: fixed;
+  z-index: 1001;
+  top: 0;
+  right: 0;
+  background-color: #191919;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 68px;
+  color: white;
+  transition: all 0.5s ease-in;
+  backdrop-filter: #fff;
+}
+
+.sidebar.open {
+  width: 300px;
+}
+
+.sidebarOptions {
+  padding: 8px 8px 8px 24px;
+  text-decoration: none;
+  font-size: 1.1em;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  color: #a6a6a6;
+  border-top: 0.5px solid #a6a6a640;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.sidebarOptions svg{
+  font-size: 1.3em;
+}
+
+.contact{
+  border-bottom: 0.5px solid #a6a6a640;
+}
+
+.sidebarOptions:hover {
+  color: #ffffff;
+}
+
+.sideNavActive{
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
+}
+
+.closebtn {
+  color: #a6a6a6;
+  position: absolute;
+  top: 0.5em;
+  right: 0.9em;
+  font-size: 2.2em;
+  /* margin-left: 50px; */
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-weight: 200;
+}
+
+.closebtn:hover{
+  color: #ffffff;
+}
+
+@media screen and (max-width: 700px) {
+  .custom-scroll{
+    padding: 1em 2em;
+    opacity: 1;
+  }
+  .bgTransparent{
+    padding: 1.75em 2em ;
+  }
+  .navContent {
+    display: none;
+  }
+  .sidebarMenu {
+    display: block;
+  }
+}

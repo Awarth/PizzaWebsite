@@ -1,0 +1,462 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap");
+
+.pizzaHome {
+  width: 100%;
+  /* height: 90vh; */
+  background: url("../../images/pizzaHome.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  padding: 13% 7%;
+}
+
+.pizzaHomeContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3em;
+  justify-content: space-between;
+  margin: 2em 0 10em;
+}
+
+.pizzaHomeContent h1 {
+  font-size: 3.5em;
+  line-height: 1;
+}
+
+.pizzaHomeContent p {
+  font-size: 1em;
+  font-family: "Poppins", sans-serif;
+}
+
+.pizzaHomeContent button {
+  background-color: rgb(174, 171, 6);
+  border: rgb(174, 171, 6) solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em 0.8em;
+  border-radius: 0.3em;
+  gap: 0.8em;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+}
+
+.arrow {
+  fill: rgb(122, 120, 2);
+}
+
+.pizzaHome button:hover {
+  color: #000;
+  background-color: #ffffff;
+  transition: all 0.2s ease;
+  border-color: #ffffff;
+}
+
+.homeAbout {
+  padding: 2% 0 13% 7%;
+  display: flex;
+  flex-direction: column;
+  gap: 7em;
+}
+
+.homeRecipe {
+  width: 100%;
+  /* border: #000 1px solid; */
+  display: flex;
+  gap: 3em;
+}
+
+.homeRecipeImg {
+  width: 50%;
+  /* border: #000 1px solid; */
+}
+
+.homeRecipeImg img {
+  width: 100%;
+  height: 100%;
+}
+.homeRecipeAbout {
+  width: 35%;
+}
+
+.aboutPart2 {
+  display: flex;
+  gap: 2em;
+}
+
+.homeAboutContent {
+  width: 50vw;
+  padding: 2em 0 2em 2em;
+}
+
+.homeRecipeAbout h1,
+.homeAboutContent h1 {
+  font-size: 2.5em;
+  color: #3c1c20;
+  margin-bottom: 1em;
+  line-height: 1.25;
+}
+
+.homeRecipeAbout img,
+.homeAboutContent img {
+  width: 110px;
+}
+
+.homeRecipeAbout p,
+.homeAboutContent p {
+  margin-top: 3.5em;
+  color: #9d8b81;
+  font-family: "Poppins", sans-serif;
+}
+
+.homeAboutImage {
+  /* border: 1px solid black; */
+  width: 50vw;
+  background: url(../../images/pizza1.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+.homeMenuSection {
+  background-color: #481f25;
+  padding: 5% 7%;
+  position: relative;
+}
+
+.homeMenuSection img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  transform: rotate(180deg);
+}
+
+.menuCard {
+  background: url(../../images/homeMenu.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 40%;
+  aspect-ratio: 1/0.85;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuCardContent {
+  cursor: pointer;
+  text-align: center;
+  background-color: #2a1115;
+  padding: 6% 3.5%;
+  display: flex;
+  width: fit-content;
+  /* justify-content: space-between; */
+  gap: 1em;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menuCardContent h2 {
+  color: #ffffff;
+  font-size: 2em;
+}
+
+.menuCardContent p {
+  font-family: "Poppins", sans-serif;
+  color: #d8b67e;
+}
+
+.sampleSection {
+  padding: 10% 7%;
+}
+.sampleContent {
+  text-align: center;
+}
+
+.sampleContent h1 {
+  font-size: 2.4em;
+  color: #3c1c20;
+}
+.sampleContent p {
+  font-size: 1.25em;
+  font-family: "Poppins", sans-serif;
+  color: #d8b67e;
+}
+
+.sampleContent {
+  width: 100%;
+}
+
+.pizzaCardCollection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em;
+  padding: 5% 0 0;
+}
+
+.pizzaCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pizzaCard img {
+  width: 70%;
+  aspect-ratio: 1;
+}
+
+.pizzaCard h2 {
+  font-size: 1.5em;
+  color: #3c1c20;
+}
+
+.pizzaCard p {
+  color: #9d8b81;
+  font-size: 1.1em;
+}
+
+.homeOrderSection {
+  display: flex;
+  padding: 10% 7%;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  background: url(../../images/home_pizza3_sectionbg3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.homeOrderSection img {
+  position: absolute;
+  top: 0;
+  /* transform: translateY(-10px); */
+}
+
+.phoneEncircle {
+  border-radius: 50%;
+  padding: 0.6em;
+  font-size: 2.5em;
+  color: #ffffff;
+  background-color: #aeab06;
+}
+
+.orderingDetails h1 {
+  font-size: 2.5em;
+  color: #ffffff;
+}
+
+.orderingDetails a {
+  text-decoration: none;
+  color: #aeab06;
+  font-size: 2.5em;
+}
+
+.orderingDetails span {
+  font-size: 0.8em;
+}
+
+@media screen and (max-width: 900px) {
+  .homeAbout {
+    padding: 2% 7% 13%;
+  }
+  .homeRecipe,
+  .aboutPart2 {
+    flex-direction: column;
+  }
+  .homeRecipe {
+    justify-content: center;
+    align-items: center;
+  }
+  .homeRecipeImg {
+    width: 75%;
+  }
+  .homeRecipeImg img {
+    height: auto;
+  }
+  .homeRecipeAbout {
+    width: 100%;
+  }
+  .homeAboutContent {
+    width: 100%;
+    padding: 1em;
+  }
+  .homeAboutImage {
+    width: 100%;
+    height: 75vh;
+    background-position: center;
+    background-size: cover;
+  }
+  .menuCard {
+    width: 55%;
+  }
+  .menuCardContent h2 {
+    font-size: 1.5em;
+  }
+  .pizzaCardCollection {
+    gap: 0.5em;
+  }
+  .pizzaCard img {
+    width: 80%;
+  }
+  .pizzaCard h2 {
+    font-size: 1.35em;
+  }
+  .pizzaCard p {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .pizzaHome {
+    padding: 13% 4%;
+  }
+  .pizzaHomeContent {
+    margin-bottom: 2em;
+  }
+  .pizzaHomeContent h1 {
+    font-size: 3em;
+  }
+  .homeRecipeImg {
+    width: 80%;
+  }
+  .menuCard {
+    width: 60%;
+  }
+  .sampleSection {
+    padding: 13% 5%;
+  }
+  .sampleContent h1 {
+    font-size: 2em;
+    margin-bottom: 0.2em;
+  }
+  .sampleContent p {
+    font-size: 1.2em;
+  }
+  .pizzaCardCollection {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    gap: 2.5em;
+  }
+  .pizzaCardCollection .pizzaCard:nth-child(3) {
+    grid-column: 1/-1;
+    justify-self: center;
+    width: 45%;
+  }
+  .homeOrderSection {
+    padding: 13% 7%;
+  }
+}
+@media screen and (max-width: 560px) {
+  .pizzaHome,
+  .homeAbout,
+  .sampleSection {
+    padding: 13% 2.5%;
+  }
+  .pizzaHomeContent {
+    gap: 1.5em;
+  }
+  .pizzaHomeContent h1 {
+    font-size: 2em;
+  }
+  .pizzaHomeContent p {
+    font-size: 0.8em;
+  }
+  .pizzaHomeContent button {
+    font-size: 0.9em;
+  }
+  .homeRecipeImg {
+    width: 92%;
+  }
+  .homeAboutContent h1 {
+    font-size: 2.2em;
+    margin-bottom: 0.6em;
+  }
+  .homeRecipeAbout img,
+  homeAboutContent img {
+    width: auto;
+  }
+  .homeRecipeAbout p,
+  .homeAboutContent p {
+    margin-top: 1.5em;
+  }
+  .menuCard {
+    width: 70%;
+  }
+  .menuCardContent {
+    gap: 0.2em;
+    line-height: 1;
+    padding: 3% 1%;
+  }
+  .menuCardContent h2 {
+    font-size: 1.3em;
+  }
+  .menuCardContent p {
+    width: 70%;
+    font-size: 0.9em;
+  }
+  .sampleContent h1 {
+    font-size: 1.75em;
+    margin-bottom: 0.2em;
+  }
+  .pizzaCardCollection {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .pizzaCardCollection .pizzaCard:nth-child(3) {
+    width: auto;
+  }
+  .pizzaCard img {
+    width: 50%;
+  }
+  .pizzaCard h2 {
+    font-size: 2em;
+  }
+  .pizzaCard p {
+    font-size: 1.1em;
+  }
+  .phoneEncircle {
+    font-size: 2em;
+  }
+  .orderingDetails h1 {
+    font-size: 2em;
+  }
+  .orderingDetails a {
+    font-size: 2em;
+  }
+  .homeOrderSection {
+    padding: 18% 2.5%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .homeAboutContent h1 {
+    font-size: 2em;
+  }
+  .homeRecipeAbout p,
+  .homeAboutContent p {
+    font-size: 0.85em;
+  }
+  .menuCardContent h2 {
+    font-size: 1.1em;
+  }
+  .menuCardContent p {
+    font-size: 0.75em;
+  }
+  .phoneEncircle {
+    font-size: 1.8em;
+  }
+  .orderingDetails h1 {
+    font-size: 1.5em;
+  }
+  .orderingDetails a {
+    font-size: 1.5em;
+  }
+  .phoneEncircle {
+    padding: 0.4em;
+  }
+}

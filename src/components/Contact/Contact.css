@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap");
+
+.contactPage {
+  background-color: #fffbf7;
+}
+
+.contactOne {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: url(../../images/contactBg1.png);
+  padding: 20% 7% 2%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  text-align: center;
+  gap: 0.5em;
+}
+
+.contactOne h1 {
+  font-size: 3em;
+  color: #3c1c20;
+}
+
+.contactOne p {
+  color: #aeab06;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2em;
+}
+.contactSecond {
+  width: 100%;
+  padding: 5% 7%;
+  display: flex;
+  gap: 2em;
+}
+
+.restaurantImgSection img {
+  height: 100%;
+}
+
+.restaurantImgSection,
+.restaurantDetails {
+  width: 50%;
+
+  margin-bottom: 2em;
+}
+
+.restaurantDetails {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.restaurantDetails h1 {
+  font-size: 1.7em;
+  color: #3c1c20;
+}
+
+.restaurantDetails a,
+.restaurantDetails p {
+  color: #9b8d81;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+}
+
+.restaurantDetails p {
+  margin: 0 0 1em;
+}
+
+.storeInfo p {
+  font-size: 1.1em;
+  line-height: 1.25;
+}
+
+.managerInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  width: 100%;
+}
+
+.managerInfo h1 {
+  font-size: 2em;
+}
+
+.managerInfo p {
+  font-size: 1.25em;
+}
+
+.picAndImg {
+  width: 100%;
+  display: flex;
+  gap: 1em;
+}
+
+.picAndImg img {
+  width: 35%;
+  border-radius: 50%;
+  aspect-ratio: 1;
+}
+
+.picAndImg .name {
+  color: #000;
+  font-weight: 600;
+}
+
+.picAndImg p {
+  margin: 0 0 0.2em;
+}
+.picAndImg a {
+  display: block;
+  font-size: 1.25em;
+}
+
+.picAndImg span {
+  color: #aeab06;
+}
+.picAndImg span:hover {
+  text-decoration: underline;
+  color: #8b8905;
+}
+
+.contactFormSection {
+  padding: 10% 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactContainer {
+  background-color: #4b2228;
+  color: #fff;
+  width: 100%;
+  padding: 5% 8%;
+  /* margin: 0 auto; */
+  /* border-radius: 0.5em; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.contactContainer h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+/* Contact Form Styles */
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: "poppins", sans-serif;
+}
+
+.contactForm input,
+.contactForm textarea {
+  color: #aeab06;
+  outline: none;
+  padding: 0.5em;
+  border: none;
+  border-bottom: #5c2d34 1px solid;
+  /* border-radius: 5px; */
+  font-size: 1em;
+  background-color: transparent;
+  font-size: 1.2em;
+}
+
+.contactForm textarea {
+  resize: none;
+  height: 150px;
+}
+
+.contactForm button {
+  padding: 10px;
+  border: none;
+  /* border-radius: 5px; */
+  background-color: #aeab06;
+  color: #ffffff;
+  font-size: 1.3em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contactForm input:focus,
+.contactForm textarea:focus {
+  border-bottom: 1px solid #aeab06;
+}
+
+.contactForm button:hover {
+  background-color: #8b8905;
+}
+
+.contactContainer p{
+  font-family: "poppins",sans-serif;
+  text-align: center;
+  margin-top: 1.5em;
+  font-size: 1em;
+  color: #28a745;
+}
+
+@media screen and (max-width: 900px) {
+  .restaurantDetails h1 {
+    font-size: 1.5em;
+  }
+  .restaurantDetails p,
+  .restaurantDetails a {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .contactOne {
+    padding: 22% 5% 2%;
+  }
+  .contactOne h1 {
+    font-size: 2.6em;
+  }
+  .contactOne p {
+    font-size: 1.1em;
+  }
+  .contactSecond {
+    padding: 5%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .restaurantImgSection,
+  .restaurantDetails {
+    width: 75%;
+  }
+  .contactSecond h1 {
+    font-size: 2em;
+    line-height: 1.2;
+  }
+  .contactSecond p {
+    font-size: 1.2em;
+  }
+  .managerInfo a {
+    font-size: 1.2em;
+  }
+  .contactContainer {
+    padding: 13% 2.5%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .contactOne {
+    padding: 30% 2.5% 2%;
+    gap: 0;
+  }
+  .contactOne h1 {
+    font-size: 2.2em;
+  }
+  .contactOne p {
+    font-size: 1em;
+  }
+  .contactSecond {
+    padding: 5% 2.5%;
+  }
+  .price{
+    font-size: 1.5em !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .restaurantImgSection,
+  .restaurantDetails {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .contactOne h1 {
+    font-size: 2em;
+    line-height: 1.2em;
+  }
+  .managerInfo a {
+    font-size: 1em;
+  }
+}

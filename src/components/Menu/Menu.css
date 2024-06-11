@@ -1,0 +1,434 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap");
+
+.menuFirst {
+  padding: 13% 7% 2%;
+  background-image: url(../../images/menuHome.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 6em;
+}
+
+.menuFirst h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 3em;
+}
+
+.menuFirst p {
+  text-align: center;
+  font-size: 1.4em;
+  color: #d8b67e;
+  font-family: "Poppins", sans-serif;
+}
+
+.menuOptionsCollection {
+  /* position: absolute; */
+  /* bottom: 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+  /* transform: translateY(45%); */
+  z-index: 10;
+  width: 100%;
+}
+
+.menuOptionCard {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-options {
+  text-align: left;
+  width: 100%;
+  padding: 0.9em 0.7em;
+  font-family: "Yeseva One", serif;
+  font-size: 2em;
+  color: #ffffff;
+  background-color: #aeab06;
+  transition: all 0.2s ease-in;
+}
+
+.menu-options:hover {
+  background-color: #2c1317;
+}
+
+.menuSecond {
+  padding: 5% 7% 13%;
+}
+
+.menuSecond h1 {
+  font-size: 3em;
+  color: #2c1317;
+}
+
+.menuSecond img {
+  width: 110px;
+  margin: 1em 0;
+}
+
+.pizzaCardCollection {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.pizzaMenuCard {
+  position: relative;
+  padding: 0.5em;
+  width: 100%;
+  border: 1px solid black;
+  background-color: #2c131714;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.pizzaMenuCard img {
+  width: 60%;
+}
+
+.pizzaMenuCard h2 {
+  font-size: 1.7em;
+  color: #2c1317;
+}
+
+.pizzaMenuCard p {
+  font-size: 1em;
+  color: #d8b67e;
+  line-height: 1.1;
+  margin: 0.5em 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.dropDownSection,
+.priceAndQty {
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+
+.sizeSelect,
+.crustSelect {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.sizeSelect label,
+.crustSelect label {
+  font-size: 1.2em;
+  color: #2c1317;
+}
+
+.sizeSelect select,
+.crustSelect select {
+  color: #2c1317;
+  outline: none;
+  font-size: 1.1em;
+  font-family: "Poppins", sans-serif;
+  border: #2c1317 1px solid;
+  border-radius: 0.2em;
+  background-color: #ffffff;
+}
+
+.sizeSelect option,
+.crustSelect option {
+  font-size: 1em;
+  font-family: "Poppins", sans-serif;
+}
+
+.priceAndQty {
+  align-items: center;
+}
+
+.qty {
+  /* width: 50%; */
+  display: flex;
+  flex-direction: column;
+}
+
+.qty label {
+  display: inline;
+  color: #2c1317;
+  font-size: 1.2em;
+  text-align: left;
+}
+
+.qtyInputSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: auto;
+  border-radius: 0.3em;
+  border: #2c1317 1px solid;
+  /* outline: auto; */
+}
+
+.qty input {
+  /* padding: 0 0.5em; */
+  -webkit-appearance: none;
+  margin: 0;
+  width: 2em;
+  outline: none;
+  font-size: 1.2em;
+  display: inline-block;
+  color: #2c1317;
+  /* border: #2c1317 1px solid; */
+  /* border-radius: 0.2em; */
+  text-align: center;
+}
+
+.qtyInputSection p {
+  margin: 0;
+  color: #000;
+  font-size: 1.75em;
+}
+
+.priceAndQty h1 {
+  display: block;
+  font-size: 1.5em;
+}
+
+.pizzacardButton {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  /* border: 1px solid red; */
+}
+
+.pizzacardButton button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wishlist {
+  font-size: 3em;
+  margin: 0 0 0 1em;
+}
+
+.addToCart {
+  color: #2c1317;
+  font-size: 1.2em;
+  border: 1px solid #2c1317;
+  background-color: #ffffff;
+  border-radius: 0.2em;
+  padding: 0.2em 0.3em;
+}
+
+.menuThree {
+  background: url(../../images/menuBg2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10% 7% 2%;
+  position: relative;
+}
+
+.menuThree img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-10%);
+}
+
+.menuThree h1 {
+  text-align: center;
+  font-size: 2em;
+  line-height: 1.2;
+  color: #aeab06;
+  margin-bottom: 1em;
+}
+
+.menuThree h1 span {
+  color: #ffffff;
+}
+
+.menuFour {
+  padding: 10% 7% 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d8b57e36;
+}
+
+.menuFour h1,
+.menuFour img,
+.menuFour p {
+  width: 32%;
+}
+
+.menuFour h1 {
+  font-size: 2.7em;
+  color: #2c1317;
+}
+
+/* .menuFour img{
+  height: 100%;
+  width: 100%;
+} */
+
+.menuFour p {
+  font-size: 1.3em;
+  text-align: right;
+  /* margin-left: auto; */
+}
+
+.category-icon{
+  width: 40px !important;
+  aspect-ratio: 1;
+  position: absolute;
+  top: 0;
+  left: 15px;
+}
+
+@media screen and (max-width: 900px) {
+  .menuFirst {
+    padding-bottom: 30%;
+  }
+  .menuFirst h1 {
+    font-size: 2.5em;
+  }
+  .menuOptionCard {
+    width: 25%;
+  }
+  .menu-options {
+    font-size: 1.5em;
+    /* padding: 0.5em; */
+  }
+  .pizzaCardCollection {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 7em;
+  }
+  .menuFour h1 {
+    font-size: 2.3em;
+  }
+  .menuFour p {
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 700px) {
+  .menuFirst,
+  .menuSecond,
+  .menuThree,
+  .menuFour {
+    padding: 13% 5%;
+    gap: 3.5em;
+  }
+  .menuOptionsCollection {
+    /* position: relative; */
+    flex-direction: column;
+    transform: none;
+    gap: 2em;
+  }
+  .menuOptionCard {
+    width: 60%;
+  }
+  .menu-options {
+    font-size: 2em;
+  }
+  .pizzaCardCollection {
+    gap: 2em;
+  }
+  .menuFour {
+    flex-direction: column;
+  }
+  .menuFour h1,
+  .menuFour p {
+    width: 100%;
+  }
+  .menuFour img {
+    width: 50%;
+    margin-bottom: 1.5em;
+  }
+  .menuFour h1 {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .menuFirst {
+    padding: 35% 2.5% 2.5%;
+  }
+  .menuSecond {
+    padding: 13% 2.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+  .menuFirst h1 {
+    font-size: 2.1em;
+    margin-bottom: 0.2em;
+    line-height: 1.1;
+  }
+  .menuFirst p {
+    line-height: 1.1;
+    font-size: 1.2em;
+  }
+  .menuSecond h1 {
+    font-size: 2.5em;
+  }
+  .menuSecond img {
+    width: auto;
+  }
+  .menuOptionCard {
+    width: 70%;
+  }
+  .pizzaCardCollection {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+  .pizzaMenuCard {
+    width: 70%;
+  }
+  .menuThree {
+    padding: 13% 2.5%;
+    padding-bottom: 5%;
+  }
+  .menuThree h1 {
+    font-size: 1.8em;
+    line-height: 1.3em;
+  }
+  .menuFour {
+    padding: 13% 2.5%;
+  }
+  .menuFour h1 {
+    font-size: 1.8em;
+  }
+  .price{
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 450px) {
+  .menuFirst h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  .menuFirst p {
+    font-size: 1.25em;
+  }
+  .menuOptionCard {
+    width: 90%;
+  }
+  .pizzaMenuCard {
+    width: 85%;
+  }
+  .addToCart {
+    font-size: 1em;
+  }
+}
