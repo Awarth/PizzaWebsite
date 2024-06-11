@@ -57,6 +57,7 @@
 }
 
 .homeAbout {
+  background-color: #ffffff;
   padding: 2% 0 13% 7%;
   display: flex;
   flex-direction: column;
@@ -171,6 +172,7 @@
 }
 
 .sampleSection {
+  background-color: #ffffff;
   padding: 10% 7%;
 }
 .sampleContent {
